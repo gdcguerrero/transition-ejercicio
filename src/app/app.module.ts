@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TransitionDirective } from './libs/directives/transition.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TransitionDirective
   ],
   imports: [
     BrowserModule,
