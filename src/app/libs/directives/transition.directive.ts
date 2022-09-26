@@ -3,7 +3,7 @@ import { Directive, ElementRef, Input, OnInit, HostListener } from '@angular/cor
 @Directive({
   selector: '[appTransition]'
 })
-export class TransitionDirective {
+export class TransitionDirective{
 
   @Input('entrada') entrada: string ='';
   
@@ -15,5 +15,6 @@ export class TransitionDirective {
   }
 
   ngOnInit(): void {
+    
   }
 }
